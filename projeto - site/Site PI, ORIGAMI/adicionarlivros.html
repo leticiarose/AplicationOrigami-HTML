@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Origami- Organização em primeiro lugar</title>
+  <link rel="shortcut icon" href="img/origami.png" type="img/x-png" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/adicionarLivros.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="content">
+    <div id="cadastro">
+
+      <form>
+        <h1>Adicione os dados de seus livros</h1>
+
+        <p>
+          <label for="nome_cad">Nome</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text"
+            placeholder=" Ex:Os instrumentos mortais" />
+        </p>
+
+        <p>
+          <label for="nome_autor">Autor</label>
+          <input id="nome_autor" name="nome_autor" required="required" type="text"
+            placeholder="Exemplo:Cassandra Clare" />
+        </p>
+
+        <p>
+          <label for="genero">Gênero</label>
+          <input id="genero" name="genero" required="required" type="text" placeholder="Exemplo:Ficção" />
+        </p>
+
+<!-- 
+         <p> 
+            <label for="codigo_livro">Código do livro </label>
+            <input id="codigo_livro" name="codigo_livro" required="required" type="number" placeholder="Exemplo: 0733476579" />
+          </p> 
+
+        <p> 
+            <label for="estante">Estante </label>
+            <input id="estante" name="estante" required="required" type="number" placeholder="Exemplo: 073" />
+          </p> 
+
+        <p>
+          <label for="senha_cad">Digite sua senha de acesso:</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="*********" />
+        </p> -->
+
+        <p>
+          <input id="sendButton" type="button" value="Finalizar Cadastro" />
+        </p>
+        <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/adicionarlivros.js"></script>
+</body>
+
+</html>

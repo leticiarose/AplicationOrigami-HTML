@@ -1,0 +1,42 @@
+
+  body {
+    font-family: 'Open Sans', 'Arial';
+    /* background-image: linear-gradient(to top, #4F94CD, #836FFF, #BA55D3, #FA8072); */
+    background-color:  #8dcabc;
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    height: 13%;
+    margin-top: 3%;
+    text-shadow: 2px 2px 2px white;
+    font-size: 50px;
+  }
+
+  .titulo {
+    color: white;
+  }
+
+
+  .Section-content {
+    max-width: 990px;
+    margin: auto;
+    font-size: 1em;
+    line-height: 1.6em;
+  }
+
+  .u-align-center {
+    text-align: justify;
+    text-align: center;
+    font-weight: bold;
+  } 
+
+  .Section-content {
+    max-width: 800px;
+  }
+
+  .img {
+    border-radius: 100px;
+    float: left;
+  }

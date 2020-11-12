@@ -1,0 +1,25 @@
+.sobre {
+    width: 100%;
+    margin-top: 40px;
+    background: rgba(192, 192, 192, 0.192);
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    height: 633px;
+  }
+  
+  .sobre1 {
+    width: 100%;
+    background: rgba(192, 192, 192, 0.192);
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    height: 633px;
+  }
+  
+  h4 {
+    font-size: 35px;
+    color: #FCB90C;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }

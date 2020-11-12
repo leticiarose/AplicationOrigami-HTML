@@ -1,0 +1,200 @@
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 5px;
+}
+  
+ul li{
+  display: inline-block;
+}
+
+  
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+  
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+h1,h2 {
+color:white;
+text-align: center;
+height: 13%;
+margin-top: 3%;
+text-shadow: 2px 2px 2px black
+}
+
+h3{
+color:white;
+text-align: center;
+height: 13%;
+margin-top: 3%;
+}
+
+.titulo{
+color: white;
+}
+
+.login{
+text-align: center;
+padding-top: 15px;
+}
+
+p{
+color: white;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+width: 372px;
+text-align: center;
+}
+
+.estudante, .bibliotecario{
+width: 400px;
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.usuarios{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-top: 5%; 
+}
+
+.login{
+background-color: #FF7F50;
+border-radius: 50px;
+width: 40%;
+height: 10%;
+font-family: Lato;
+font-size: 18px;
+color: black;
+}
+
+.link {
+color: black;
+}
+
+a{
+color:white;
+}
+
+body {
+  background-color: #5F9EA0;
+}  
+
+.rodape-prin{
+  background-color:  rgb(0, 0, 0);       
+  clear: both;
+  padding: 20px;         
+  color: rgb(250,255,250);
+  font-size: 15px;
+  font-family: "arial", sans-serif;
+}
+
+.icones-sociais li{
+  display: inline-block;
+  float: right;
+  width: 150px;
+}
+
+
+
+world { 
+  margin:0;
+  padding:0;
+  font-family: Arial, PT sans captions;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.links{
+  display: none;
+}
+
+/* .search-box{
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: pink;
+border-radius: 40px;
+padding: 10px;
+}
+
+.search-btn{
+color: white;
+float: right;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: none;
+display: flex;
+justify-content: center;
+align-intems: center; 
+text-decoration: none;
+}
+
+.search-txt{
+border: none;
+background: none;
+outline: none;
+float: left;
+padding: 0;
+color: #fff
+font-size: 15px;
+transition: 0.3s;
+line-height: 40px;
+widht: 0px;
+}
+
+.search-box:hover > .search-txt{
+width: 240px;
+padding: 0.5px;
+
+}
+
+.search-box:hover > .search-btn{
+background: none;
+} 
+ */
+
+/* .homeSobre{
+  background-color: rgb(248, 213, 219);
+  padding: 3rem;
+  width: 100vw;
+  margin-left: -2.5%;
+  outline-offset: -2rem;
+  line-height: 150%;
+  position: relative;
+  color: #232323;
+}
+
+.homeSobre{
+  background-color: rgb(248, 213, 219);
+  position: absolute;
+  top: 0.1em;
+  padding: 0.6rem 0.15rem;
+	margin: auto;
+  color: #232323;
+  font-size: 1.6rem;
+  left: 50%;
+  transform: translate(-50%);
+} */
+

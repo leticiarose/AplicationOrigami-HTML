@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+  body {
+		background-color: #8dcabc;
+	}
+
+	p {
+		color:black;
+     font-family: Verdana,Tahoma,sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		width: 372px;
+		text-align: center;
+	}
+
+  h1 {
+		font-size: 48px;
+		color: #00BFFF;
+		padding: 10px 0;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+  	h1:after {
+		content: ' ';
+		display: block;
+		width: 100%;
+		height: 2px;
+		margin-top: 10px;
+		background: black;
+
+	}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+}
+ 
+/* input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+  */
+.submit input {
+    background-color: #8dcabc;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+ form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+} 
+
+/* #contato{		
+		background: rgb(247, 247, 247);
+		border-radius: 50px;
+		width: 40%;
+		height: 10%;
+		font-family: Lato;
+		font-size: 18px;
+		color: black;
+		text-align: center;
+		padding-top: 15px;
+    position: center;
+
+	} */
+
+  #contato {
+		position: absolute;
+		top: 0px;
+		width: 88%;
+		padding: 18px 6% 60px 6%;
+		margin: 0 0 35px 0;
+		background: rgb(247, 247, 247);
+		border: 1px solid rgba(147, 184, 189, 0.8);
+	}
+
+   .content {
+		width: 500px;
+		margin: 10px auto;
+		position: relative;
+	} 
+

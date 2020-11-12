@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <title>Origami- Organização em primeiro lugar</title>
+  <link rel="shortcut icon" href="img/origami.png" type="img/x-png" />
+  <link href="css/cadastrobibliotecario.css" rel="stylesheet" type="text/css" />
+</head>  
+
+<body>
+    <div class="content">
+        <div id="cadastro">
+            <img src="img/origami.png" width="70" height="70">
+            <form method="post" action="">
+                <h1>Cadastro</h1>
+
+                <p>
+                    <label for="nome_cad">Digite seu nome</label>
+                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Exemplo: Maria" />
+                </p>
+
+                <p>
+                    <label for="email_cad">Digite um e-mail</label>
+                    <input id="email_cad" name="email_cad" required="required" type="email"
+                        placeholder="exemplo@.com.br" />
+                </p>
+
+                <p>
+                    <label for="nome_escola">Digite o nome da sua instituição</label>
+                    <input id="nome_escola" name="nome_escola" required="required" type="text"
+                        placeholder="Exemplo: ETE Porto Digial" />
+                </p>
+
+                <p>
+                    <label for="nome_escola">Digite o código de sua instituição</label>
+                    <input id="nome_escola" name="codigo_escola" required="required" type="number"
+                        placeholder="Exemplo: 0733476579" />
+                </p>
+
+                <p>
+                    <label for="senha_cad">Digite uma senha</label>
+                    <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
+                </p>
+
+                <button id="sendButton" type="button">Finalizar Cadastro</button>
+
+                <p class="link">
+                    Já possui uma conta?
+                    <a href="loginbibliotecario.html" class="login">Login</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/cadastroBibliotecario.js"></script>
+    
+</body>

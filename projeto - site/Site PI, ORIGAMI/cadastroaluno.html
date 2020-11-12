@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Origami- Organização em primeiro lugar</title>
+  <link rel="shortcut icon" href="img/origami.png" type="img/x-png" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/cadastroaluno.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="content">
+    <div id="cadastro">
+      <form>
+        <h1>Cadastro aluno</h1>
+
+        <p>
+          <label for="nome_cad">Digite seu nome</label>
+          <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Exemplo: Maria" />
+        </p>
+
+        <p>
+          <label for="nome_escola">Digite o nome da sua instituição</label>
+          <input id="nome_escola" name="nome_escola" required="required" type="text"
+            placeholder="Exemplo: ETE Porto Digial" />
+        </p>
+
+        <p>
+          <label for="email_cad">Digite um e-mail</label>
+          <input id="email_cad" name="email_cad" required="required" type="email" placeholder="exemplo@.com.br" />
+        </p>
+
+        <p>
+          <label for="senha_cad">Digite uma senha</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="" />
+        </p>
+
+        <button id="sendButton" type="button">Finalizar Cadastro</button>
+
+        <!-- <p> 
+                <input type="submit" value="Finalizar Cadastro"/> 
+              </p>
+               -->
+        <p class="link">
+          Já possui uma conta?
+          <a href="loginaluno.html" class="login">Login</a>
+        </p>
+
+        <p class="link">
+          Deseja voltar a pagina inicial?
+          <a href="index.html" class="login">Clique aqui.</a>
+        </p>
+
+
+
+        <!-- <script>
+    function finalizar() {
+      alert("Seu cadastro foi concluido com sucesso.");
+    }
+    </script> -->
+
+
+
+      </form>
+    </div>
+  </div>
+
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase.js"></script>
+      <script src="js/app.js"></script>
+      <script src="js/cadastroAluno.js"></script> -->
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/cadastroAluno.js"></script>
+</body>

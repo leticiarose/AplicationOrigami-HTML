@@ -1,0 +1,50 @@
+body{
+    background-image: url(../img/fundo3.jpg);
+    background-repeat: 100%;
+    background-repeat: no-repeat, repeat;
+}
+   
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: pink;
+    border-radius: 40px;
+    padding: 10px;
+    }
+    
+    .search-btn{
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-intems: center; 
+    text-decoration: none;
+    }
+    
+    .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff
+    font-size: 15px;
+    transition: 0.3s;
+    line-height: 40px;
+    widht: 0px;
+    }
+    
+    .search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0.5px;
+    
+    }
+    
+    .search-box:hover > .search-btn{
+    background: none;
+    } 

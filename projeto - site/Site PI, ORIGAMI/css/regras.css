@@ -1,0 +1,17 @@
+:root {
+    --body-color: #8dcabc;
+}
+
+:root {
+    --font-color: #47525E;
+}
+
+body {
+    background-color: var(--body-color);
+    margin: 3.0em;
+}
+
+.text-box {
+    color: var(--font-color);
+    justify-content: space-between;
+}

@@ -1,0 +1,69 @@
+.menu li {
+  list-style: none;
+  margin-right: 5%;
+  flex-wrap: no-wrapper !important;
+}
+ #barra{
+   background-color: black;
+ }
+body{
+    background-color:#A4D3EE;
+    /* background-color: blanchedalmond; */
+}
+
+.inicio{
+   /* width: 960px;  */
+  margin: auto;
+}
+
+
+.imagem{
+width: 400px;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 80px 30px 180px; 
+display: table-cell;
+float: left;
+}
+
+ #container{
+  /* width: 960px;
+  height: 600px; */ 
+  background-color:#A4D3EE;
+  margin: 0 auto 0 auto;
+  padding: 5px 50px 60px; 
+  display: table;
+} 
+
+.conteudo{
+  font-family: 'GILL sans' 'GILL sans MT' 'calibri' 'Trenuchet MS' 'sans-serif';
+  display: table-cell;
+  float: left;
+  width: 300px;
+}
+
+.rodape-prin
+{
+    background-color:  rgb(0, 0, 0);       
+    clear: both;
+    padding: 20px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+    margin: 0px;
+}
+
+.icones-sociais li
+{
+    display: inline-block;
+    float: right;
+    width: 150px;
+}
+
+h2{
+margin-top: 0; 
+margin-bottom: .5rem;
+}
+
