@@ -1,4 +1,4 @@
-# SITE: ORIGAMI | Projeto integrador 2019
+ORIGAMI | PI 2019
 
 ![](https://github.com/leticiarose/ORIGAMI-site-Integrator-Project-2019/blob/51012b6f6d19d06bbe58e8ac0e3a2c103f071c01/home%20origami.png)
 
